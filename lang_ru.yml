@@ -36,4 +36,192 @@ ALERT_HELP: '&bCore &7| &fИспользуйте - &b/alert <укажите_со
 FIND_HELP: '&bCore &7| &fИспользуйте - &b/find <укажите_ник>'
 INFO_HELP: '&bCore &7| &fИспользуйте - &b/info <укажите_ник>'
 SERVER_HELP: '&bCore &7| &fИспользуйте - &b/server <название_сервера>'
+SEND_HELP: '&bCore &7| &fИспользуйте - &b/send <укажите_ник> <название_сервера>'
 CRASH_HELP: '&bQubexAPI &7| &fИспользуйте - &b/дать_пиздюлей <укажите_ник>'
+FIND_MSG: '&bCore &7| &fИгрок &player% &fнаходится на сервере &b%server%'
+MONEY_MSG: '&bQubexAPI &7| &fВаш баланс: &b%money% &f> &6%golds%'
+PING_YOURSELF_MESSAGE: '&bCore &7| &fВаш пинг &a%ping% &fms'
+PING_OTHER_MESSAGE: '§bCore &7| &fПинг игрока %player% &f- &a%ping% &fms'
+
+# Welcome
+WELCOME_SERVER_MESSAGE:
+  - ''
+  - '&8&k&1|&r&1  &fДобро пожаловать на &bQubexCloud &8&k&1|&r&1'
+  - ''
+  - ' &fИменно для вас, Мы подготовили новые обновления мини-игр, '
+  - ' &fи много другое...'
+  - ''
+  
+# Announcer
+BUNGEE_ANNOUNCER_DONATE_MESSAGE:
+  - ''
+  - '&fХочешь получить какую-то &9привилегию &fна сервере?'
+  - '&fЗаходи в &b&nменю с донатом&f, и смотри &f&nуникальные&f возможности донатеров'
+  - ''
+  - ' &8↪ &7(Нажмите сюда) &8↩'
+  - ''
+BUNGEE_ANNOUNCER_IP_MESSAGE:
+  - ''
+  - '&fРасскажите о нашем сервер своим друзьям'
+  - '&fНаш IP: &bmc.qubexcloud.me'
+  - '&fЭтим вы поможете нашему серверу развиваться намного быстрее'
+  - ''
+  - ' &8↪ &7(Нажмите, чтобы скопировать) &8↩'
+  - ''
+BUNGEE_ANNOUNCER_IP_COPY_HOVER: '&fКликни сюда, чтобы скопировать IP'
+
+# Level
+LEVEL_UP_TITLE: '&a&l&kX&c&l УРОВЕНЬ ПОВЫШЕН &a&l&kX&r'
+LEVEL_UP_SUBTITLE: '&fВы достигли &b%new_level% &fуровня'
+LEVEL_UP_MESSAGE:
+  - ''
+  - ''
+  - '          &b&kX&6&l НОВЫЙ УРОВЕНЬ &b&kX'
+  - '  &a▸ &fВы достигли &d%new_level% &fуровня!'
+  - '  &a▸ &fДо следущего необходимо &e%total_exp% &fопыта'
+  - ''
+  - ''
+  
+# Holograms
+HOLOGRAM_CASE_LINE_1: '&dМистический сундук'
+HOLOGRAM_CASE_LINE_2: '&7В ожидании открытия'
+HOLOGRAM_CASE_LINE_3 : '&r'
+
+HOLOGRAM_GAME_SELECT_NPC_NO_SERVERS_LINE_1: '%game_name%'
+HOLOGRAM_GAME_SELECT_NPC_NO_SERVERS_LINE_2: '&cОтсутствуют свободные сервера!'
+HOLOGRAM_GAME_SELECT_NPC_NO_SERVERS_LINE_3: '&7Нажмите, чтобы подключиться!'
+HOLOGRAM_GAME_SELECT_NPC_NO_SERVERS_LINE_4: '&7Сейчас играет &b%players%&7 игроков'
+
+HOLOGRAM_NPC_LOBBY_GAME_LINE_1: '&7Нажмите, чтобы подключиться!'
+HOLOGRAM_NPC_LOBBY_GAME_LINE_2: '&7Сейчас играет %online% &7игроков'
+HOLOGRAM_NPC_LOBBY_GAME_LINE_3: '&7Доступных серверов: %servers%'
+
+# Stream System
+NEW_OPEN_STREAM:
+  - ''
+  - '&bCore &7| &fСтример %streamer% &fзапустил трансляцию на платформе %platform%'
+  - '&bCore &7| &fНазвание трансляции: &b%stream_title%'
+  - '&bCore &7| &fЗрителей: &b%viewers%'
+  - ''
+  - '&8↪ &7(Перейти на трансляцию) &8↩'
+  
+ STREAM_ANNOUNCE:
+  - ''
+  - '&fНа сервере сейчас проходит &b%count% &fтрансляций'
+  - ''
+  - '&8↪ &7(Открыть инвентарь с эфирами) &8↩'
+  
+# Hub Scoreboard
+HUB_BOARD_TITLE: 
+  - '&bQubexCloud'
+  - '&bQubexCloud'
+  - '&bQubexCloud'
+HUB_BOARD_LINES:
+  - '&1'
+  - '&fИгровой статус: %status%'
+  - '&fБаланс: &a%balance%'
+  - '&fЗолота: &6%golds%'
+  - '&fУровень: &d%level%'
+  - '&fEXP &a%level_exp%&7/&c%level_max_exp%'
+  - '&r'
+  - '&fПрогресс уровня: &b%level_exp_percent%'
+  - ' %level_bar'
+  - '&r'
+  - '&fОнлайн: &a%online%'
+  - '&fСервер: &a%server_name%'
+  - '&r'
+  - '&7www.qubexcloud.me'
+  
+# Sauldov Test SkyWars
+SKYWARS_BOARD_TITLE:
+  - '&bSkyWars'
+  - '&bSkyWars'
+  - '&bSkyWars'
+SKYWARS_BOARD_LINES:
+  - '&7%date%'
+  - '&r'
+  - '&eСтатистика SkyWars:'
+  - '&fОдиночные убийства: &a%solo_kills%'
+  - '&fОдиночные победы: &a%solo_wins%'
+  - '&fКомандные убийства: &a%doubles_kills%'
+  - '&fОдиночные победы: &a%doubles_wins%'
+  - '&r'
+  - '&fРейтинговые очки: &a%rating%'
+  - '&fОнлайн: &a%online%'
+  - '&r'
+  - '&7www.qubexcloud.me'
+  
+# Sauldov Test Duels
+ DUELS_BOARD_TITLE:
+  - '&bDuels'
+  - '&bDuels'
+  - '&bDuels'
+ DUELS_BOARD_LINES:
+  - '&r'
+  - '&7Вы находитесь в лобби дуэлей'
+  - '&7Выбирай игру и побеждай врагов!'
+  - '&r'
+  - '&eСтатистика Duels:'
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&r'
+  - '&fОнлайн: &a%online%'
+  - '&fСервер: &a%server_name%'
+  - '&r'
+  - '&7www.qubexcloud.me'
+  
+# Bedwars Scoreboard
+ BEDWARS_BOARD_TITLE: 
+  - '&fBed&cWars'
+  - '&fBed&cWars'
+  - '&fBed&cWars'
+ BEDWARS_BOARD_LINES:
+  - '&7%date%'
+  - '&r'
+  - '&eСтатистика BedWars:'
+  - '&fОдиночные убийства: &a0'
+  - '&fОдиночные победы: &a0'
+  - '&fКомандные убийства: &a0'
+  - '&fКомандные победы: &a0'
+  - '&r'
+  - '&fОнлайн: &a%online%'
+  - '&fСервер: &a%server_name'
+  - '&r'
+  - '&7www.qubexcloud.me'
+  
+# Api player messages
+ INFO:
+  - '&bQubexAPI &8| &fИнформация о пользователе %player%'
+  - '&fУникальный ID игрока: &b%id%'
+  - '&fИгровой статус: &group%'
+  - '&fБаланс: &a%money%'
+  - '&fЗолота: &6%golds%'
+  - '&fУровень: &d%level%'
+  - '&fЯзык: &b%language%'
+  - '&fEXP: &a%exp%&7/&c%max_exp%'
+  INFO_ONLINE:
+  - ''
+  - '&fНа данный момент: &aВ сети'
+  - '&fТекущий сервер: &a%server%'
+  - '&fВерсия клиента: &d%version%'
+  INFO_OFFLINE:
+  - ''
+  - '&fНа данный момент: &aНе в сети'
+  - '&fПоследний сервер: &a%server%'
+  - '&fБыл в сети: &c%date% &fназад'
+  
+# Language selector
+  LANGUAGE_SELECT_MENU_TITLE: 'Языковая система'
+  LANGUAGE_SELECTED: '&bCore &7| &fВаш язык успешно изменён на %language%'
+  CHAT_HOVER: 
+  - '&fСтатистика %prefix% %player%&7:'
+  - '&fУровень: &d%level%'
+  - '&fEXP: &a%exp%§7/§c%max_exp%'
+  - ''
+  - '&7Нажмите, чтобы отправить личное сообщение'
+  
+# Menu selector
+  MENU_TITLE: 'Игровой навигатор'
+  MENU_HELP_TITLE: '&aПомощь по серверу'
