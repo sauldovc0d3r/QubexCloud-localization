@@ -51,24 +51,6 @@ WELCOME_SERVER_MESSAGE:
   - ' &fИменно для вас, Мы подготовили новые обновления мини-игр, '
   - ' &fи много другое...'
   - ''
-  
-# Announcer
-BUNGEE_ANNOUNCER_DONATE_MESSAGE:
-  - ''
-  - '&fХочешь получить какую-то &9привилегию &fна сервере?'
-  - '&fЗаходи в &b&nменю с донатом&f, и смотри &f&nуникальные&f возможности донатеров'
-  - ''
-  - ' &8↪ &7(Нажмите сюда) &8↩'
-  - ''
-BUNGEE_ANNOUNCER_IP_MESSAGE:
-  - ''
-  - '&fРасскажите о нашем сервер своим друзьям'
-  - '&fНаш IP: &bmc.qubexcloud.me'
-  - '&fЭтим вы поможете нашему серверу развиваться намного быстрее'
-  - ''
-  - ' &8↪ &7(Нажмите, чтобы скопировать) &8↩'
-  - ''
-BUNGEE_ANNOUNCER_IP_COPY_HOVER: '&fКликни сюда, чтобы скопировать IP'
 
 # Level
 LEVEL_UP_TITLE: '&a&l&kX&c&l УРОВЕНЬ ПОВЫШЕН &a&l&kX&r'
@@ -191,6 +173,26 @@ SKYWARS_BOARD_LINES:
   - '&r'
   - '&7www.qubexcloud.me'
   
+# Grief Scoreboard 
+ GRIEF_BOARD_TITLE:
+  - '&eGrief'
+  - '&eGrief'
+  - '&eGrief'
+ GRIEF_BOARD_LINES:
+  - '&r'
+  - '&eСтатистика Grief:'
+  - ' &fБаланс: &a%balance%'
+  - ' &fЗолота: &6%golds%'
+  - ' &fУровень: &d%level%'
+  - '&r'
+  - ' &fУбийств: &a%kills%'
+  - ' &fСмертей: &c%deaths%'
+  - '&r'
+  - ' &fОнлайн: &a%online%'
+  - '&r'
+  - '&7www.qubexcloud.me'
+  
+  
 # Api player messages
  INFO:
   - '&bQubexAPI &8| &fИнформация о пользователе %player%'
@@ -225,3 +227,32 @@ SKYWARS_BOARD_LINES:
 # Menu selector
   MENU_TITLE: 'Игровой навигатор'
   MENU_HELP_TITLE: '&aПомощь по серверу'
+ 
+# Friends messages
+FRIENDS_ADD_FORMAT: '&bCore &7| &fИспользуйте - &b/f add <укажите_ник>'
+FRIENDS_REMOVE_FORMAT: '&bCore &7| &fИспользуйте - &b/f remove <укажите_ник>'
+FRIENDS_ACCEPT_FORMAT: '&bCore &7| &fИспользуйте - &b/f accept <укажите_ник>'
+FRIENDS_DENY_FORMAT: '&bCore &7| &fИспользуйте - &b/f deny <укажите_ник>'
+FRIENDS_TP_SERVER_FORMAT: '&bCore &7| &fИспользуйте - &b/f tp <укажите_ник>'
+FRIENDS_HELP_COMMANDS:
+  - '&bДрузья &7| &fПомощь по командам:'
+  - '&fДобавить игрока в друзья - &b/friends add <укажите_ник>'
+  - '&fПринять запрос от игрока в друзья - &b/friends accept <укажите_ник>'
+  - '&fОтклюнить запрос от игрока в друзья - &b/friends deny <укажите_ник>'
+  - '&fУдалить игрока из списка друзей - &b/friends remove <укажите_ник>'
+  - '&fПросмотреть список своих друзей - &b/friends list'
+  - '&fПросмотреть список запросов в друзья - &b/friends requests &7(&cВременно не работает&7)'
+  - '&fТелепортироваться на сервер к другу - &b/friends tp <укажите ник>'
+  - ''
+  - '&7P.S: Телепортация работает исключительно на лобби подрежимов, на игровые сервера телепортация не совершается.'
+# Core online
+GLOBAL_ONLINE: '&bCore &7| &fОбщий онлайн всех серверов - &a%online%'
+SERVER_NAME_ONLINE: '&bCore &7| &fОнлайн сервера %prefix% - &a%online%'
+
+# FM
+FAST_MESSAGE_TITLE: '&7Меню доната ▸ Быстрые сообщения'
+
+# Joiner function
+JOINER_TITLE: '&7Меню доната ▸ Сообщения при входе'
+JOINER_SELECTED: '&bQubexAPI &7| &fВы выбрали сообщение #%id% &fиз категории %category%'
+JOINER_BUYED: '&bQubexAPI &7| &fВы купили сообщение #%id% &fиз категории %category% &fза &6%cost% золота'
