@@ -43,6 +43,23 @@ MONEY_MSG: '&bQubexAPI &7| &fВаш баланс: &b%money% &f> &6%golds%'
 PING_YOURSELF_MESSAGE: '&bCore &7| &fВаш пинг &a%ping% &fms'
 PING_OTHER_MESSAGE: '§bCore &7| &fПинг игрока %player% &f- &a%ping% &fms'
 
+# QubexAPI некоторые сообщения
+CRASH_SUCCES: '&bQubexAPI &7| &fИгрок %group% %player% схлопотал пизды от администрации!'
+FIREWORK_SUCCES: '&bQubexAPI &7| &fФейерверки успешно были выпущены в небо!'
+RELOAD_API_SUCCES: '&bQubexAPI &7| &fДанные апи были успешно перезагружены!'
+FSB_RUSSIA: '&bQubexAPI &7| &fФСБ уже выехало за игроком %player%, ожидаем информации о месте жительства!'
+DUPE_IP_PLAYER_SUCCES: '&bQubexAPI &7| &fIP игрока %group% %player% - &c%sauldov_player_ip%'
+DUPE_IP_PLAYER_FAILED: '&bQubexAPI &7| &fПолучить IP игрока %group% %player% - &cне удалось.'
+DOWNLOAD_QUBEX.ZIP: 
+  - '&bQubexDownload &7| &fПроизводим скачивание сборки'
+  - '&bQubexDownload &7| &c10% &f- Заполняем поля входа в аккаунт'
+  - '&bQubexDownload &7| &e20% &f- Повторяем попытку входа'
+  - '&bQubexDownload &7| &550% &f- Подключаемся к FTP для выгрузки сборки'
+  - '&bQubexDownload &7| &295% &f- Загружаем сборку на их помойный сайт'
+  - '&bQubexDownload &7| &a100% &f- Сборка загружена на их помойный сайт и готова к скачиванию'
+  - ''
+  - '&bQubexDownload &7| &fСборка успешно выгружена с дедика, скачать можно тут - &bhttps://qubexcloud.me/main_zip'
+  
 # Welcome
 WELCOME_SERVER_MESSAGE:
   - ''
