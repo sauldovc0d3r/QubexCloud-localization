@@ -1,4 +1,3 @@
-#Базовые команды сервера
 NO_PERMISSIONS: '&bCore &7| &cОшибка, у Вас недостаточно прав!'
 MIN_PERM_GROUP: '&bCore &7| &fВыполнение данного действия доступно от привилегии %group% и выше!'
 LOGIN_SERVER_ERROR: '&bCore &7| &fВыполнение команд не допускается на игровом или авторизационном серверах!'
@@ -31,7 +30,6 @@ PLAYER_SUCCES_AUTH: '&bCore &7| &fАккаунт успешно внесён в 
 SAULDOV_TEST_VK_URL: '&fВКонтакте - &bhttps://vk.com/id%vkId%'
 SAULDOV_TEST_VK_NO: '&fВконтакте - &fНе привязан'
 
-# Core main messages
 ALERT_HELP: '&bCore &7| &fИспользуйте - &b/alert <укажите_сообщение>'
 FIND_HELP: '&bCore &7| &fИспользуйте - &b/find <укажите_ник>'
 INFO_HELP: '&bCore &7| &fИспользуйте - &b/info <укажите_ник>'
@@ -43,7 +41,6 @@ MONEY_MSG: '&bQubexAPI &7| &fВаш баланс: &b%money% &f> &6%golds%'
 PING_YOURSELF_MESSAGE: '&bCore &7| &fВаш пинг &a%ping% &fms'
 PING_OTHER_MESSAGE: '§bCore &7| &fПинг игрока %player% &f- &a%ping% &fms'
 
-# QubexAPI некоторые сообщения
 CRASH_SUCCES: '&bQubexAPI &7| &fИгрок %group% %player% схлопотал пизды от администрации!'
 FIREWORK_SUCCES: '&bQubexAPI &7| &fФейерверки успешно были выпущены в небо!'
 RELOAD_API_SUCCES: '&bQubexAPI &7| &fДанные апи были успешно перезагружены!'
@@ -60,7 +57,6 @@ DOWNLOAD_QUBEX.ZIP:
   - ''
   - '&bQubexDownload &7| &fСборка успешно выгружена с дедика, скачать можно тут - &bhttps://qubexcloud.me/main_zip'
   
-# Welcome
 WELCOME_SERVER_MESSAGE:
   - ''
   - '&8&k&1|&r&1  &fДобро пожаловать на &bQubexCloud &8&k&1|&r&1'
@@ -69,7 +65,6 @@ WELCOME_SERVER_MESSAGE:
   - ' &fи много другое...'
   - ''
 
-# Level
 LEVEL_UP_TITLE: '&a&l&kX&c&l УРОВЕНЬ ПОВЫШЕН &a&l&kX&r'
 LEVEL_UP_SUBTITLE: '&fВы достигли &b%new_level% &fуровня'
 LEVEL_UP_MESSAGE:
@@ -81,10 +76,8 @@ LEVEL_UP_MESSAGE:
   - ''
   - ''
   
-# Holograms
 HOLOGRAM_CASE_LINE_1: '&dМистический сундук'
-HOLOGRAM_CASE_LINE_2: '&7В ожидании открытия'
-HOLOGRAM_CASE_LINE_3 : '&r'
+HOLOGRAM_CASE_LINE_2: '&7Нажмите, чтобы использовать!'
 
 HOLOGRAM_GAME_SELECT_NPC_NO_SERVERS_LINE_1: '%game_name%'
 HOLOGRAM_GAME_SELECT_NPC_NO_SERVERS_LINE_2: '&cОтсутствуют свободные сервера!'
@@ -95,7 +88,6 @@ HOLOGRAM_NPC_LOBBY_GAME_LINE_1: '&7Нажмите, чтобы подключит
 HOLOGRAM_NPC_LOBBY_GAME_LINE_2: '&7Сейчас играет %online% &7игроков'
 HOLOGRAM_NPC_LOBBY_GAME_LINE_3: '&7Доступных серверов: %servers%'
 
-# Stream System
 NEW_OPEN_STREAM:
   - ''
   - '&bCore &7| &fСтример %streamer% &fзапустил трансляцию на платформе %platform%'
@@ -110,7 +102,6 @@ NEW_OPEN_STREAM:
   - ''
   - '&8↪ &7(Открыть инвентарь с эфирами) &8↩'
   
-# Hub Scoreboard
 HUB_BOARD_TITLE: 
   - '&8» &bQubexCloud &8» Lobby'
   - '&8» &bQubexCloud &8» Lobby'
@@ -131,7 +122,6 @@ HUB_BOARD_LINES:
   - '&r'
   - '&7www.qubexcloud.me'
   
-# Sauldov Test SkyWars
 SKYWARS_BOARD_TITLE:
   - '&8» &bSkyWars'
   - '&8» &bSkyWars'
@@ -150,7 +140,6 @@ SKYWARS_BOARD_LINES:
   - '&r'
   - '&7www.qubexcloud.me'
   
-# Sauldov Test Duels
  DUELS_BOARD_TITLE:
   - '&8» &bDuels'
   - '&8» &bDuels'
@@ -171,7 +160,6 @@ SKYWARS_BOARD_LINES:
   - '&r'
   - '&7www.qubexcloud.me'
   
-# Bedwars Scoreboard
  BEDWARS_BOARD_TITLE: 
   - '&8» &fBed&cWars'
   - '&8» &fBed&cWars'
@@ -225,7 +213,7 @@ SKYWARS_BOARD_LINES:
   - ' %winner%'
   - '&r'
   - '&7www.qubexcloud.me'
-# Grief Scoreboard 
+  
  GRIEF_BOARD_TITLE:
   - '&8» &eGrief'
   - '&8» &eGrief'
@@ -244,8 +232,6 @@ SKYWARS_BOARD_LINES:
   - '&r'
   - '&7www.qubexcloud.me'
   
-  
-# Api player messages
  INFO:
   - '&bQubexAPI &8| &fИнформация о пользователе %player%'
   - '&fУникальный ID игрока: &b%id%'
@@ -266,7 +252,6 @@ SKYWARS_BOARD_LINES:
   - '&fПоследний сервер: &a%server%'
   - '&fБыл в сети: &c%date% &fназад'
   
-# Language selector
   LANGUAGE_SELECT_MENU_TITLE: 'Языковая система'
   LANGUAGE_SELECTED: '&bCore &7| &fВаш язык успешно изменён на %language%'
   CHAT_HOVER: 
@@ -275,12 +260,10 @@ SKYWARS_BOARD_LINES:
   - '&fEXP: &a%exp%§7/§c%max_exp%'
   - ''
   - '&7Нажмите, чтобы отправить личное сообщение'
-  
-# Menu selector
-  MENU_TITLE: 'Игровой навигатор'
-  MENU_HELP_TITLE: '&aПомощь по серверу'
  
-# Friends messages
+ MENU_TITLE: 'Игровой навигатор'
+ MENU_HELP_TITLE: '&aПомощь по серверу'
+ 
 FRIENDS_ADD_FORMAT: '&bCore &7| &fИспользуйте - &b/f add <укажите_ник>'
 FRIENDS_REMOVE_FORMAT: '&bCore &7| &fИспользуйте - &b/f remove <укажите_ник>'
 FRIENDS_ACCEPT_FORMAT: '&bCore &7| &fИспользуйте - &b/f accept <укажите_ник>'
@@ -297,14 +280,6 @@ FRIENDS_HELP_COMMANDS:
   - '&fТелепортироваться на сервер к другу - &b/friends tp <укажите ник>'
   - ''
   - '&7P.S: Телепортация работает исключительно на лобби подрежимов, на игровые сервера телепортация не совершается.'
-# Core online
+
 GLOBAL_ONLINE: '&bCore &7| &fОбщий онлайн всех серверов - &a%online%'
 SERVER_NAME_ONLINE: '&bCore &7| &fОнлайн сервера %prefix% - &a%online%'
-
-# FM
-FAST_MESSAGE_TITLE: '&7Меню доната ▸ Быстрые сообщения'
-
-# Joiner function
-JOINER_TITLE: '&7Меню доната ▸ Сообщения при входе'
-JOINER_SELECTED: '&bQubexAPI &7| &fВы выбрали сообщение #%id% &fиз категории %category%'
-JOINER_BUYED: '&bQubexAPI &7| &fВы купили сообщение #%id% &fиз категории %category% &fза &6%cost% золота'
