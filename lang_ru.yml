@@ -112,9 +112,9 @@ NEW_OPEN_STREAM:
   
 # Hub Scoreboard
 HUB_BOARD_TITLE: 
-  - '&bQubexCloud'
-  - '&bQubexCloud'
-  - '&bQubexCloud'
+  - '&8» &bQubexCloud &8» Lobby'
+  - '&8» &bQubexCloud &8» Lobby'
+  - '&8» &bQubexCloud &8» Lobby'
 HUB_BOARD_LINES:
   - '&1'
   - '&fИгровой статус: %status%'
@@ -133,9 +133,9 @@ HUB_BOARD_LINES:
   
 # Sauldov Test SkyWars
 SKYWARS_BOARD_TITLE:
-  - '&bSkyWars'
-  - '&bSkyWars'
-  - '&bSkyWars'
+  - '&8» &bSkyWars'
+  - '&8» &bSkyWars'
+  - '&8» &bSkyWars'
 SKYWARS_BOARD_LINES:
   - '&7%date%'
   - '&r'
@@ -152,9 +152,9 @@ SKYWARS_BOARD_LINES:
   
 # Sauldov Test Duels
  DUELS_BOARD_TITLE:
-  - '&bDuels'
-  - '&bDuels'
-  - '&bDuels'
+  - '&8» &bDuels'
+  - '&8» &bDuels'
+  - '&8» &bDuels'
  DUELS_BOARD_LINES:
   - '&r'
   - '&7Вы находитесь в лобби дуэлей'
@@ -173,9 +173,9 @@ SKYWARS_BOARD_LINES:
   
 # Bedwars Scoreboard
  BEDWARS_BOARD_TITLE: 
-  - '&fBed&cWars'
-  - '&fBed&cWars'
-  - '&fBed&cWars'
+  - '&8» &fBed&cWars'
+  - '&8» &fBed&cWars'
+  - '&8» &fBed&cWars'
  BEDWARS_BOARD_LINES:
   - '&7%date%'
   - '&r'
@@ -227,9 +227,9 @@ SKYWARS_BOARD_LINES:
   - '&7www.qubexcloud.me'
 # Grief Scoreboard 
  GRIEF_BOARD_TITLE:
-  - '&eGrief'
-  - '&eGrief'
-  - '&eGrief'
+  - '&8» &eGrief'
+  - '&8» &eGrief'
+  - '&8» &eGrief'
  GRIEF_BOARD_LINES:
   - '&r'
   - '&eСтатистика Grief:'
